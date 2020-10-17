@@ -1,6 +1,5 @@
 # DRCSYSTEM
-Step - 1
-#create a virtual enviorment
+# create a virtual enviorment
 conda create --name Mydjangoenv django
 conda install django
 
@@ -34,7 +33,10 @@ python manage.py migrate
 USE mysqldrc;
 SHOW tables;
 
-# step- 2
+# settings.py
+join the dir for templates
+and add loginapp in app
+
 # created a template folder inside loginapp folder
 # Templates
 this folder contains welcome.html,login and register.html
@@ -50,6 +52,9 @@ created a views for login and register
 
 #backend.py
 check if the data are matched with the database, do the authentication with User model
+
+# settings.py
+add backend file authentictaion to the setting file
 
 # create a super user
 python manage.py createsuperuser # to view django adminstartion
