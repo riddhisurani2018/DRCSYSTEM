@@ -47,6 +47,9 @@ created url pattern for html files
 # Models.py
 register User model in model.py file
 
+# apply migrations
+check migration folder whether it is been updated or not
+
 # views.py
 created a views for login and register 
 
@@ -60,6 +63,6 @@ add backend file authentictaion to the setting file
 python manage.py createsuperuser # to view django adminstartion
 
 # Run the file
-python manage.py make migrations
-python manage.py mograte
-python manage.py runserver
+# python manage.py make migrations
+# python manage.py migrate
+# python manage.py runserver
